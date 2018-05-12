@@ -90,7 +90,7 @@ func TestPrepare(t *testing.T) {
 			t.Skip("Skipping remote clone. Set CLONE_FROM_GITHUB to proceed")
 		}
 
-		cache, err := Prepare("https://github.com/nicolai86/github-rebase-bot.git", "master")
+		cache, err := Prepare("https://github.com/dblooman/github-rebase-bot.git", "master")
 		if err != nil {
 			t.Fatal(err.Error())
 		}

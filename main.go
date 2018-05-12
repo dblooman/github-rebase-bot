@@ -13,9 +13,9 @@ import (
 	"syscall"
 	"time"
 
+	"github.com/dblooman/github-rebase-bot/processors"
+	"github.com/dblooman/github-rebase-bot/repo"
 	"github.com/google/go-github/github"
-	"github.com/nicolai86/github-rebase-bot/processors"
-	"github.com/nicolai86/github-rebase-bot/repo"
 	"golang.org/x/oauth2"
 )
 

@@ -7,9 +7,9 @@ import (
 	"log"
 	"net/http"
 
+	"github.com/dblooman/github-rebase-bot/processors"
+	"github.com/dblooman/github-rebase-bot/repo"
 	"github.com/google/go-github/github"
-	"github.com/nicolai86/github-rebase-bot/processors"
-	"github.com/nicolai86/github-rebase-bot/repo"
 )
 
 type statusEventBroadcaster struct {

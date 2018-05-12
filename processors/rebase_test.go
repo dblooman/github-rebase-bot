@@ -5,8 +5,8 @@ import (
 	"sync"
 	"testing"
 
+	"github.com/dblooman/github-rebase-bot/repo"
 	"github.com/google/go-github/github"
-	"github.com/nicolai86/github-rebase-bot/repo"
 )
 
 type fakeWorkerCache func(string) (repo.Enqueuer, error)

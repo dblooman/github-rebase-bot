@@ -39,4 +39,4 @@ To update the integration test scenarios unarchive `scenarios/rebase-conflict.zi
 
 ## installation
 
-`go get -u github.com/nicolai86/github-rebase-bot`
+`go get -u github.com/dblooman/github-rebase-bot`

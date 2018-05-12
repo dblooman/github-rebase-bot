@@ -4,8 +4,8 @@ import (
 	"errors"
 	"sync"
 
+	"github.com/dblooman/github-rebase-bot/repo"
 	"github.com/google/go-github/github"
-	"github.com/nicolai86/github-rebase-bot/repo"
 )
 
 type RebaseResult struct {

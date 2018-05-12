@@ -3,8 +3,8 @@ package processors
 import (
 	"context"
 
+	"github.com/dblooman/github-rebase-bot/repo"
 	"github.com/google/go-github/github"
-	"github.com/nicolai86/github-rebase-bot/repo"
 )
 
 // PullRequestGetter queries github for a specific pull request

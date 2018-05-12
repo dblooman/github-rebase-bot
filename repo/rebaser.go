@@ -3,7 +3,7 @@ package repo
 import (
 	"context"
 
-	"github.com/nicolai86/github-rebase-bot/repo/internal/log"
+	"github.com/dblooman/github-rebase-bot/repo/internal/log"
 )
 
 type branchRebaser struct {
