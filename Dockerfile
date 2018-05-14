@@ -1,6 +1,6 @@
 FROM golang:1.10.2-alpine3.7
 RUN apk --no-cache --update add git
-RUN go get github.com/dblooman/github-rebase-bot
+RUN go get github.com/depop/github-rebase-bot
 
 FROM alpine:3.7
 

@@ -13,8 +13,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/dblooman/github-rebase-bot/processors"
-	"github.com/dblooman/github-rebase-bot/repo"
+	"github.com/depop/github-rebase-bot/processors"
+	"github.com/depop/github-rebase-bot/repo"
 	"github.com/google/go-github/github"
 	"golang.org/x/oauth2"
 )

@@ -9,8 +9,8 @@ import (
 	"path"
 	"strings"
 
-	"github.com/dblooman/github-rebase-bot/repo/internal/cmd"
-	"github.com/dblooman/github-rebase-bot/repo/internal/log"
+	"github.com/depop/github-rebase-bot/repo/internal/cmd"
+	"github.com/depop/github-rebase-bot/repo/internal/log"
 )
 
 type GitCache interface {

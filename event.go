@@ -7,8 +7,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/dblooman/github-rebase-bot/processors"
-	"github.com/dblooman/github-rebase-bot/repo"
+	"github.com/depop/github-rebase-bot/processors"
+	"github.com/depop/github-rebase-bot/repo"
 	"github.com/google/go-github/github"
 )
 

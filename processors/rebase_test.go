@@ -5,7 +5,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/dblooman/github-rebase-bot/repo"
+	"github.com/depop/github-rebase-bot/repo"
 	"github.com/google/go-github/github"
 )
 
