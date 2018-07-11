@@ -1,6 +1,7 @@
 FROM golang:1.10.2-alpine3.7
 RUN apk --no-cache --update add git
-RUN go get github.com/depop/github-rebase-bot
+COPY . /go/src/github.com/depop/github-rebase-bot
+RUN cd /go/src/github.com/depop/github-rebase-bot && go install
 
 FROM alpine:3.7
 
