@@ -2,6 +2,7 @@ package main
 
 import (
 	"context"
+	"encoding/json"
 	"flag"
 	"fmt"
 	"log"
@@ -139,6 +140,12 @@ func main() {
 	for _, repo := range repos {
 		mux.HandleFunc(fmt.Sprintf("/events/%s/%s", repo.Owner, repo.Name), prHandler(repo, client))
 	}
+
+	mux.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
+		resp, _ := json.Marshal(map[string]string{"status": "OK"})
+		w.Write(resp)
+	})
+
 	srv := &http.Server{
 		Addr:    addr,
 		Handler: mux,
